@@ -16,7 +16,7 @@ st.markdown("""
 # 3. Load Data Otomatis dari Repository
 @st.cache_data
 def load_data():
-    nama_file = 'Hasil_TKA_Siswa_2025.xlsx - Sheet1.csv'
+    nama_file = 'Hasil_TKA_Siswa_2025.csv'
     try:
         # Membaca file langsung
         df = pd.read_csv(nama_file)
